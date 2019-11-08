@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a658a1d4-ec7d-4b95-8d56-8549711d3d5c" name="Default Changelist" comment="" />
+    <list default="true" id="a658a1d4-ec7d-4b95-8d56-8549711d3d5c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/emp/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lin/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lin/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/controller/EmployeeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/lin/controller/EmployeeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/emp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/emp/list.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +38,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -51,23 +62,25 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/emp" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\templates\emp" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\templates\emp" />
       <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\templates" />
       <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\java\com\lin" />
       <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\resources" />
       <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\templates\emp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -110,10 +123,22 @@
       <workItem from="1573001421151" duration="880000" />
       <workItem from="1573088252429" duration="9538000" />
       <workItem from="1573111660011" duration="7528000" />
+      <workItem from="1573199598474" duration="2763000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
