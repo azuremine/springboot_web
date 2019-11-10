@@ -1,42 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a658a1d4-ec7d-4b95-8d56-8549711d3d5c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/Springboot04WebRestfulcrudApplication$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/Springboot04WebRestfulcrudApplication$MyViewResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/Springboot04WebRestfulcrudApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/component/LoginHandlerInterceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/component/MyLocaleResolver.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/config/MyMvcConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/controller/EmployeeController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/controller/HelloWorldController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/controller/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/dao/DepartmentDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/dao/EmployeeDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/entities/Department.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/lin/entities/Employee.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/i18n/login.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/i18n/login_en_US.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/i18n/login_zh_CN.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/resources/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/css/dashboard.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/css/signin.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/img/bootstrap-solid.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/js/Chart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/js/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/js/feather.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/js/jquery-3.2.1.slim.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/asserts/js/popper.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/commons/bar.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/emp/list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/success.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/lin/Springboot04WebRestfulcrudApplicationTests.class" beforeDir="false" />
+    <list default="true" id="a658a1d4-ec7d-4b95-8d56-8549711d3d5c" name="Default Changelist" comment="添加员工页面">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/lin/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lin/controller/EmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/emp/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/emp/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/emp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSM1" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -151,7 +121,9 @@
       <workItem from="1573001421151" duration="880000" />
       <workItem from="1573088252429" duration="9538000" />
       <workItem from="1573111660011" duration="7528000" />
-      <workItem from="1573199598474" duration="3086000" />
+      <workItem from="1573199598474" duration="3531000" />
+      <workItem from="1573283774917" duration="3903000" />
+      <workItem from="1573288144747" duration="9507000" />
     </task>
     <task id="LOCAL-00001" summary="添加员工页面">
       <created>1573202652547</created>
@@ -160,18 +132,37 @@
       <option name="project" value="LOCAL" />
       <updated>1573202652548</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="添加员工页面">
+      <created>1573202711702</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1573202711702</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
