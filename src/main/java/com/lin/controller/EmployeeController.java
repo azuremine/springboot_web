@@ -9,7 +9,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
-import javax.jws.WebParam;
 import java.util.Collection;
 
 @Controller
@@ -61,7 +60,7 @@ public class EmployeeController {
 //    @RequestMapping(value = "/emp",method = RequestMethod.PUT)
     @PutMapping("/emp")
     public String updateEmp(Employee employee){
-        System.out.println("修改的员工数据" + employee);
+        //System.out.println("修改的员工数据" + employee);
         employeeDao.save(employee);
         return "redirect:/emps";
     }
@@ -75,5 +74,12 @@ public class EmployeeController {
         model.addAttribute("emp",employee);
         //回到修改页面（add是一个添加修改二合一）
         return "emp/add";
+    }
+
+    //删除员工
+    @DeleteMapping("/emp/{id}")
+    public String deleteEmp(@PathVariable("id")Integer id){
+        employeeDao.delete(id);
+        return "redirect:/emps";
     }
 }

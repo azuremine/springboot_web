@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a658a1d4-ec7d-4b95-8d56-8549711d3d5c" name="Default Changelist" comment="添加员工页面">
+    <list default="true" id="a658a1d4-ec7d-4b95-8d56-8549711d3d5c" name="Default Changelist" comment="完成删除功能，以及错误页面显示">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/error/4xx.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/lin/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/lin/controller/EmployeeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/emp/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/emp/add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/emp/list.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,22 +64,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SSM1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/templates/error" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\templates\error" />
+      <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\templates\emp" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\templates\error" />
       <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\templates\emp" />
       <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\templates" />
       <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\java\com\lin" />
       <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\resources" />
-      <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\static" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\IdeaProjects\springboot-04-web-restfulcrud\src\main\resources\templates\emp" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -123,7 +125,10 @@
       <workItem from="1573111660011" duration="7528000" />
       <workItem from="1573199598474" duration="3531000" />
       <workItem from="1573283774917" duration="3903000" />
-      <workItem from="1573288144747" duration="9507000" />
+      <workItem from="1573288144747" duration="11614000" />
+      <workItem from="1573402177630" duration="1963000" />
+      <workItem from="1573432887247" duration="611000" />
+      <workItem from="1573455396556" duration="4880000" />
     </task>
     <task id="LOCAL-00001" summary="添加员工页面">
       <created>1573202652547</created>
@@ -139,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573202711702</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="添加员工修改功能">
+      <created>1573355373918</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1573355373918</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +182,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加员工页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加员工页面" />
+    <MESSAGE value="添加员工修改功能" />
+    <MESSAGE value="完成删除功能，以及错误页面显示" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成删除功能，以及错误页面显示" />
   </component>
 </project>
