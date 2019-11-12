@@ -45,15 +45,20 @@
 	<!--引入抽取的topbar-->
 	<div th:replace="commons/bar::topbar"></div>
 
-		<div class="container-fluid">
-			<div class="row">
+	<div class="container-fluid">
+		<div class="row">
 
-				<!--引入侧边栏-->
-				<div th:replace="commons/bar::sidebar"></div>
+			<!--引入侧边栏-->
+			<div th:replace="commons/bar::sidebar"></div>
 
 				<main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
-					<h1>[[${status}]]</h1>
-					<h2>[[${timestamp}]]</h2>
+					<h1>status:[[${status}]]</h1>
+					<h2>timestamp:[[${timestamp}]]</h2>
+					<h2>exception:[[${exception}]]</h2>
+					<h2>message:[[${message}]]</h2>
+					<h2>company:[[${company}]]</h2>
+					<h2>ext:[[${ext.code}]]</h2>
+					<h2>ext:[[${ext.message}]]</h2>
 				</main>
 			</div>
 		</div>

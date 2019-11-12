@@ -1,9 +1,8 @@
 package com.lin.controller;
 
+import com.lin.excepiton.UserNotExitException;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -11,14 +10,12 @@ import java.util.Map;
 @Controller
 public class HelloWorldController {
 
-//    @RequestMapping({"/","/index.html"})
-//    public String index(){
-//        return "index";
-//    }
-
     @ResponseBody
     @RequestMapping("/hello")
-    public String hello(){
+    public String hello(@RequestParam("user") String username){
+        if(username.equals("aaa")){
+            throw new UserNotExitException();
+        }
         return "hello";
     }
 

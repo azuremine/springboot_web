@@ -2,12 +2,15 @@ package com.lin.config;
 
 import com.lin.component.LoginHandlerInterceptor;
 import com.lin.component.MyLocaleResolver;
+import org.springframework.boot.web.server.ConfigurableWebServerFactory;
+import org.springframework.boot.web.server.WebServerFactoryCustomizer;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.LocaleResolver;
 import org.springframework.web.servlet.config.annotation.InterceptorRegistry;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
 
 //使用WebMvcConfigurer来扩展SpringMvc的功能（配置类）
 @Configuration
